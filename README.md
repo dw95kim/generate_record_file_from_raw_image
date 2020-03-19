@@ -1,0 +1,1 @@
+# generate_record_file_from_raw_image
