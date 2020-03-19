@@ -1,0 +1,26 @@
+<annotation>
+  <folder>input</folder>
+  <filename>20200218_105641.jpg_20200218_125408.342.jpg</filename>
+  <path>C:\Users\USRG-ASUS\Desktop\LAB\MBZIRC\openlabeling\main\input\20200218_105641.jpg_20200218_125408.342.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>960</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>facade</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>449</xmin>
+      <ymin>351</ymin>
+      <xmax>602</xmax>
+      <ymax>412</ymax>
+    </bndbox>
+  </object>
+</annotation>

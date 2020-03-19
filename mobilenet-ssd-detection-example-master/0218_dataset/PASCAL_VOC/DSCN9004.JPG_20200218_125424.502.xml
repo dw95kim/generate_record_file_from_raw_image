@@ -1,0 +1,26 @@
+<annotation>
+  <folder>input</folder>
+  <filename>DSCN9004.JPG_20200218_125424.502.jpg</filename>
+  <path>C:\Users\USRG-ASUS\Desktop\LAB\MBZIRC\openlabeling\main\input\DSCN9004.JPG_20200218_125424.502.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>960</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>facade</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>446</xmin>
+      <ymin>546</ymin>
+      <xmax>612</xmax>
+      <ymax>613</ymax>
+    </bndbox>
+  </object>
+</annotation>
