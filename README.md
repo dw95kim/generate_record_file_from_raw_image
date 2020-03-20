@@ -2,17 +2,41 @@
 ## Requirement Version
 
 ```
-python2.7
+python 2.7
+OpenCV >= 3.0
+numpy, tqdm, lxml
 ```
 
 ## Open Labeling (png or jpg to xml)
 
 ```
-1. openlabeling 으로 xml 파일 만들기
+1. input folder 에 image 나 video 넣기
 
-2. 만들때 모든 파일 포맷을 같은 것으로 하기 (jpg or png)
+2. class_list.txt 파일에 class 구분하여 넣기 (one class name per line)
 
-3. 사이즈도 최대한 맞추기
+3. python main.py
+```
+
+## GUI usage (Keyboard / Mouse)
+```
+keyboard
+a/d : previous/next image
+s/w : previous/next class
+e : edges
+h : gelp
+q : quit
+
+Mouse
+Right-click -> quick delete
+middle mouse -> zoom
+double click -> bounding box
+```
+
+## Precaution
+```
+1. 만들때 모든 파일 포맷을 같은 것으로 하기 (jpg or png)
+
+2. 사이즈도 최대한 맞추기
 ```
 
 ## Generate record file from xml
