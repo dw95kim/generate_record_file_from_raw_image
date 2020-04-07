@@ -52,5 +52,5 @@ python xml_to_csv.py
 python generate_pbtxt.py 'csv' images/train_labels.csv images/train_labels.pbtxt
 
 3. 있는 파일로 record 파일 만들기
-python generate_tfrecord.py --csv_input=images/train_labels.csv  --image_dir=images/train --output_path=test.record
+python generate_tfrecord.py --csv_input=images/train_labels.csv  --image_dir=images/train --output_path=train.record
 ```
